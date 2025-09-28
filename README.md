@@ -2,9 +2,6 @@
 
 An interactive web application built with Next.js and TypeScript that visualizes classic pathfinding algorithms in real-time. This project serves as an educational tool to help understand the behavior, strengths, and weaknesses of different graph traversal strategies.
 
-![Pathfinding Visualizer Demo](https://i.imgur.com/8V1k8zB.gif)
-*(To create a GIF like this for your own README, you can use a free tool like ScreenToGif or GIPHY Capture)*
-
 ---
 ## ✨ Features
 
@@ -35,7 +32,7 @@ Make sure you have Node.js and npm installed on your system.
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/your-username/pathfinding-visualizer.git](https://github.com/your-username/pathfinding-visualizer.git)
+    git clone [https://github.com/Anishya181/Pathfinding-Algorithm-Visualizer](https://github.com/Anishya181/Pathfinding-Algorithm-Visualizer)
     ```
 2.  **Navigate to the project directory**
     ```bash
@@ -60,6 +57,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 4.  **Reset**: Use the "Clear Path" button to remove the animation or "Clear Board" to reset the grid and walls.
 
 ---
-## 📄 License
-
-This project is licensed under the MIT License.
