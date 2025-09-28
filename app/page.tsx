@@ -1,4 +1,3 @@
-// app/page.tsx
 import Grid from '@/components/Grid';
 
 export default function Home() {
@@ -14,27 +13,22 @@ export default function Home() {
             <label htmlFor="algorithm-select" className="font-bold text-white">Algorithm:</label>
             <select id="algorithm-select" className="bg-gray-700 text-white font-bold py-2 px-3 rounded">
               <option value="dijkstra">Dijkstra's</option>
-              <option value="bfs">BFS</option>
               <option value="astar">A* Search</option>
+              <option value="bfs">BFS</option>
               <option value="dfs">DFS</option>
-              {/* Add future algorithms here */}
             </select>
           </div>
 
           <button id="visualize-button" className="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
             Visualize!
           </button>
-          
-          <button id="visualize-button-wasm" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200 disabled:bg-gray-500">
-            Visualize Dijkstra (Wasm)
-          </button>
 
           <div className="flex gap-4">
-             <button id="clear-board-button" className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
-              Clear Board
-            </button>
             <button id="clear-path-button" className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
               Clear Path
+            </button>
+             <button id="clear-board-button" className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200">
+              Clear Board
             </button>
           </div>
 
